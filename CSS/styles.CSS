@@ -1,0 +1,32 @@
+/* target the main header only */
+body > header {
+    position: sticky;
+    top: 0;
+    background-color: var(--pico-background-color);
+}
+
+section#hero {
+    min-height: 35rem;
+    background-color: var(--pico-primary); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+   margin-bottom: 5rem;
+}
+section#hero h1 {
+    text-align: centre;
+    font-size: 5rem;
+    color: white;
+
+}
+section#likes div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+section#likes article {
+    flex-grow: 1;
+    min-width: 20rem;
+}
+/* makes wrap for phone users */
